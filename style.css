@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: flex-end;
     min-height: 106.8px;
-    background-color: rgb(10, 56, 71);
+    background-color: #3D3D3D;
 }
 
 .signature{
@@ -20,4 +20,108 @@
     font-size: 12px;
     color: gray;
     margin-bottom: 16px;
+}
+
+.section-main img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-restaurant{
+    padding-left: 16px;
+}
+
+.ranking {
+    color: rgb(214, 149, 29);
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.section-filter{
+    display: flex;
+    align-items: center;
+    background-color: #F7F6F2;
+    height: 40px;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.section-filter img{
+    margin-left: 8px;
+    width: 20px;
+    filter: invert(70%);
+}
+
+.section-basket{
+    width: 100%;
+    height: 86vh;
+    position: sticky;
+    top: 0;
+    border-right: 8px solid #EC8814;
+}
+
+.section-basket-header{
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+}
+
+#dishlist{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F6F2;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+#dishlist img{
+    border: 2px solid rgb(223, 215, 215);
+    border-top: none;
+    border-right: none;
+    width: 40px;
+    height: 40px;
+}
+
+#dishlist img:hover{
+    cursor: pointer;
+    background-color: #dfdedc;
+}
+
+.dish-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.dish-name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.dish-description{
+    font-size: 20px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.dish-price{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF8F18;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.for-order{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(229, 227, 227);
+}
+
+.space{
+    width: 100%;
+    height: 16px;
+    background-color: rgb(255, 255, 255);
+    border: none;
 }

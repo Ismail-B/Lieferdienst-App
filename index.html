@@ -1,33 +1,65 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bestell App</title>
     <script src="./script.js"></script>
-    <link rel="stylesheet" href="styles/standard.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Viga&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Viga&display=swap" rel="stylesheet">
-</head>
-<body>
+    <script src="./scripts/db.js"></script>
+    <script src="./scripts/template.js"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico">
+    <link rel="stylesheet" href="styles/standard.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="init()">
     <header>
-        <img src="./assets/img/food_logo.png" alt="">
-        <h2>Happytite</h2>
+      <img src="./assets/img/Bestell App- Logo.svg" alt="Bestell App Logo" />
     </header>
     <main>
-        <div>
-        
+      <div class="section-main">
+        <img
+          src="./assets/img/HeaderSushi.jpg"
+          alt="Sushiteller Insideout Roll"
+        />
+        <div class="section-restaurant">
+          <div><h3>Kojo Sushi</h3></div>
+          <div class="ranking">Bewertung (4,7 von 5 Sternen)</div>
+          <div class="section-filter">
+            <img src="./assets/icon/arrow.png" alt="Right Arrow Symbol" />
+            <h6>Hauptgerichte</h6>
+            <h6>Desserts</h6>
+          </div>
+          <img
+            src="./assets/img/hauptgericht.jpg"
+            alt="Plate with sushirolls"
+          />
+          <div><h5>Hauptgerichte</h5></div>
+          <div id="dishlist"></div>
         </div>
+      </div>
+      <div class="section-basket">
+        <div class="section-basket-header">
+          <h4>Warenkorb</h4>
+        </div>
+        <div id="basket">Hier kommt der Warenkorbinhalt</div>
+      </div>
     </main>
     <footer>
-        <div class="footer">
-        <img src="./assets/img/food_logo.png" alt="Fotogram Icon">
-        <p class="signature" >Happytite<br>by<br>Ismail</p>
-        </div>
-        <p class="under-signature">© 2024 IB Company</p>
+      <div class="footer">
+        <img src="./assets/icon/favicon.ico" alt="Fotogram Icon" />
+        
+      </div>
+      <p class="under-signature">© 2024 IB Company</p>
     </footer>
-</body>
+  </body>
 </html>
