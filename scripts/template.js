@@ -1,5 +1,5 @@
-function renderDishesTemp(i) {
-    let dishBox = document.getElementById('dishlist')
+function renderDishesTemp(i,id) {
+    let dishBox = document.getElementById(id)
         dishBox.innerHTML += `
                     <div class="for-order">
                     <div class="dish-content">

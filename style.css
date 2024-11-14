@@ -125,3 +125,24 @@
     background-color: rgb(255, 255, 255);
     border: none;
 }
+
+#dessertlist{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F6F2;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+#dessertlist img{
+    border: 2px solid rgb(223, 215, 215);
+    border-top: none;
+    border-right: none;
+    width: 40px;
+    height: 40px;
+}
+
+#dessertlist img:hover{
+    cursor: pointer;
+    background-color: #dfdedc;
+}
