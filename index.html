@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bestell App</title>
-    <script src="./script.js"></script>
+    
     <script src="./scripts/db.js"></script>
     <script src="./scripts/template.js"></script>
     <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico">
@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
   </head>
-  <body onload="init()">
+  <body onload="renderDishes()">
     <header>
       <img src="./assets/img/Bestell App- Logo.svg" alt="Bestell App Logo" />
     </header>
@@ -44,20 +44,24 @@
             alt="Plate with sushirolls"
           />
           <h5>Hauptgerichte</h5>
-          <div id="dishlist"></div>
+          <div id="dishes"></div>
           <img
           src="./assets/img/dessert.png" 
           alt=""
           >
           <h5>Desserts</h5>
-          <div id="dessertlist"></div>
+          <div id="desserts"></div>
         </div>
       </div>
-      <div class="section-basket">
+      <div  class="section-basket">
         <div class="section-basket-header">
           <h4>Warenkorb</h4>
         </div>
-        <div id="basket">Hier kommt der Warenkorbinhalt</div>
+        <div id="basket">
+        </div>
+        <p>Lieferkosten: 5.00 €</p>
+        <p id="subtotal">Zwischensumme: 0.00 €</p>
+        <p id="total">Gesamt: 5.00 €</p>
       </div>
     </main>
     <footer>
@@ -66,5 +70,7 @@
       </div>
       <p class="under-signature">© 2024 IB Company</p>
     </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>

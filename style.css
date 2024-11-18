@@ -54,10 +54,10 @@
 
 .section-basket{
     width: 100%;
-    height: 86vh;
+    padding: 16px;
+    flex: 1;
     position: sticky;
     top: 0;
-    border-right: 8px solid #EC8814;
 }
 
 .section-basket-header{
@@ -65,7 +65,7 @@
     width: 100%;
 }
 
-#dishlist{
+#dishes{
     display: flex;
     flex-direction: column;
     background-color: #F7F6F2;
@@ -73,7 +73,7 @@
     margin-top: 16px;
 }
 
-#dishlist img{
+#dishes img{
     border: 2px solid rgb(223, 215, 215);
     border-top: none;
     border-right: none;
@@ -81,7 +81,7 @@
     height: 40px;
 }
 
-#dishlist img:hover{
+#dishes img:hover{
     cursor: pointer;
     background-color: #dfdedc;
 }
@@ -126,7 +126,7 @@
     border: none;
 }
 
-#dessertlist{
+#desserts{
     display: flex;
     flex-direction: column;
     background-color: #F7F6F2;
@@ -134,7 +134,7 @@
     margin-top: 16px;
 }
 
-#dessertlist img{
+#desserts img{
     border: 2px solid rgb(223, 215, 215);
     border-top: none;
     border-right: none;
@@ -142,7 +142,32 @@
     height: 40px;
 }
 
-#dessertlist img:hover{
+#desserts img:hover{
     cursor: pointer;
     background-color: #dfdedc;
+}
+
+.basket-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    gap: 8px;
+    margin: 8px;
+}
+
+.basket-content img{
+    width: 20px;
+    height: auto;
+}
+
+.basket-content img:hover{
+    cursor: pointer;
+    background-color: #bec0bb;
+    border-radius: 100px;
+}
+
+#basket{
+    font-size: 24px;
+    margin: 16px;
 }
