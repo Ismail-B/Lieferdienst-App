@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bestell App</title>
-    
+
     <script src="./scripts/db.js"></script>
     <script src="./scripts/template.js"></script>
-    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico" />
     <link rel="stylesheet" href="styles/standard.css" />
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,6 +26,7 @@
   <body onload="renderDishes()">
     <header>
       <img src="./assets/img/Bestell App- Logo.svg" alt="Bestell App Logo" />
+      <img onclick="toggleOverlay()" class="menu-btn" src="./assets/icon/menu-icon.png" alt="menu-icon">
     </header>
     <main>
       <div class="section-main">
@@ -46,25 +48,22 @@
           />
           <h5>Hauptgerichte</h5>
           <div id="dishes"></div>
-          <img
-          src="./assets/img/dessert.png" 
-          alt=""
-          >
+          <img src="./assets/img/dessert.png" alt="" />
           <h5>Desserts</h5>
           <div id="desserts"></div>
         </div>
       </div>
-      <div class="section-basket">
-        <div class="section-basket-header">
+      <div id="overlay" class="section-basket">
+        <div id="oderOverlay" class="section-basket-header">
           <h4>Warenkorb</h4>
         </div>
-        <div id="basket">
-        </div>
+        <div id="basket"></div>
         <div class="result">
-        <p id="subtotal">Zwischensumme: 0.00 €</p>
-        <p>Lieferkosten: 5.00 €</p>
-      </div>
+          <p id="subtotal">Zwischensumme: 0.00 €</p>
+          <p>Lieferkosten: 5.00 €</p>
+        </div>
         <p class="result-sum" id="total">Gesamt: 5.00 €</p>
+        <a class="order-btn" href="./orderIndex.html">Bestellen</a>
       </div>
     </main>
     <footer>

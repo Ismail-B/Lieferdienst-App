@@ -1,0 +1,45 @@
+@media(max-width:480px){
+    h3{
+        font-size: 30px;
+    }
+
+    h3.dish-name{
+        font-size: 20px;
+    }
+
+    p.dish-description{
+        font-size: 16px;
+    }
+
+    p.dish-price{
+        font-size: 16px;
+    }
+
+    h5{
+        font-size: 24px;
+    }
+
+    a{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:750px){
+    .section-basket{
+        display: none;
+    }
+
+    .section-restaurant{
+        padding-right: 16px;
+    }
+
+    .menu-btn{
+        display: flex;
+    }
+}
+
+@media(min-width:750px){
+    .menu-btn{
+        display: none;
+    }
+}

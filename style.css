@@ -1,195 +1,234 @@
-.section-main img{
-    width: 100%;
-    object-fit: cover;
+.menu-btn {
+  width: 40px;
+  height: 40px;
 }
 
-.section-restaurant{
-    padding-left: 16px;
+.menu-btn:hover {
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.section-main img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.section-restaurant {
+  padding-left: 16px;
 }
 
 .ranking {
-    color: rgb(214, 149, 29);
-    font-size: 16px;
-    margin-bottom: 16px;
+  color: rgb(214, 149, 29);
+  font-size: 16px;
+  margin-bottom: 16px;
 }
 
-.section-filter{
-    display: flex;
-    align-items: center;
-    background-color: #F7F6F2;
-    height: 40px;
-    gap: 16px;
-    margin-bottom: 16px;
+.section-filter {
+  display: flex;
+  align-items: center;
+  background-color: #f7f6f2;
+  height: 40px;
+  gap: 16px;
+  margin-bottom: 16px;
 }
 
-.section-filter img{
-    margin-left: 8px;
-    width: 20px;
-    filter: invert(70%);
+.section-filter img {
+  margin-left: 8px;
+  width: 20px;
+  filter: invert(70%);
 }
 
-.section-basket{
-    height: 500px;
-    min-width: 300px;
-    max-width: 400px;
-    padding: 16px;
-    flex: 1;
-    position: sticky;
-    top: 0;
+.section-basket {
+  height: 500px;
+  min-width: 300px;
+  max-width: 400px;
+  padding: 16px;
+  flex: 1;
+  position: sticky;
+  top: 0;
 }
 
-.section-basket-header{
-    border-bottom: 2px solid lightgray;
-    width: 100%;
+.section-basket-header {
+  border-bottom: 2px solid lightgray;
+  width: 100%;
 }
 
-#dishes{
-    display: flex;
-    flex-direction: column;
-    background-color: #F7F6F2;
-    margin-bottom: 16px;
-    margin-top: 16px;
-    scroll-behavior: smooth;
+#dishes {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f6f2;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  scroll-behavior: smooth;
 }
 
-#dishes img{
-    border: 2px solid rgb(223, 215, 215);
-    border-top: none;
-    border-right: none;
-    width: 40px;
-    height: 40px;
+#dishes img {
+  border: 2px solid rgb(223, 215, 215);
+  border-top: none;
+  border-right: none;
+  width: 40px;
+  height: 40px;
 }
 
-#dishes img:hover{
-    cursor: pointer;
-    background-color: #dfdedc;
+#dishes img:hover {
+  cursor: pointer;
+  background-color: #dfdedc;
 }
 
-.dish-content{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(223, 215, 215);
+.dish-content {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(223, 215, 215);
 }
 
-.dish-name{
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 16px;
+.dish-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 16px;
 }
 
-.dish-description{
-    font-size: 20px;
-    margin-bottom: 16px;
-    margin-left: 16px;
+.dish-description {
+  font-size: 20px;
+  margin-bottom: 16px;
+  margin-left: 16px;
 }
 
-.dish-price{
-    font-size: 20px;
-    font-weight: bold;
-    color: #FF8F18;
-    margin-bottom: 16px;
-    margin-left: 16px;
+.dish-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff8f18;
+  margin-bottom: 16px;
+  margin-left: 16px;
 }
 
-.basket-price{
-    font-size: 20px
+.basket-price {
+  font-size: 20px;
 }
 
-.basket-amount{
-    font-size: 16px;
+.basket-amount {
+  font-size: 16px;
 }
 
-.basket-name{
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom: 0;
+.basket-name {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
-.for-order{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(229, 227, 227);
+.for-order {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(229, 227, 227);
 }
 
-.space{
-    width: 100%;
-    height: 16px;
-    background-color: rgb(255, 255, 255);
-    border: none;
+.space {
+  width: 100%;
+  height: 16px;
+  background-color: rgb(255, 255, 255);
+  border: none;
 }
 
-#desserts{
-    display: flex;
-    flex-direction: column;
-    background-color: #F7F6F2;
-    margin-bottom: 16px;
-    margin-top: 16px;
+#desserts {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f6f2;
+  margin-bottom: 16px;
+  margin-top: 16px;
 }
 
-#desserts img{
-    border: 2px solid rgb(223, 215, 215);
-    border-top: none;
-    border-right: none;
-    width: 40px;
-    height: 40px;
+#desserts img {
+  border: 2px solid rgb(223, 215, 215);
+  border-top: none;
+  border-right: none;
+  width: 40px;
+  height: 40px;
 }
 
-#desserts img:hover{
-    cursor: pointer;
-    background-color: #dfdedc;
+#desserts img:hover {
+  cursor: pointer;
+  background-color: #dfdedc;
 }
 
-.basket-content{
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    justify-content: space-evenly;
-    font-size: 16px;
-    gap: 8px;
+.basket-content {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 16px;
+  gap: 8px;
 }
 
-.basket-content-under{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 16px;
-    gap: 8px;
-    margin: 8px;
+.basket-content-under {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 16px;
+  gap: 8px;
+  margin: 8px;
 }
 
-.basket-content img{
-    width: 20px;
-    height: auto;
+.basket-content img {
+  width: 20px;
+  height: auto;
 }
 
-.basket-content img:hover{
-    cursor: pointer;
-    background-color: #bec0bb;
-    border-radius: 100px;
+.basket-content img:hover {
+  cursor: pointer;
+  background-color: #bec0bb;
+  border-radius: 100px;
 }
 
-#basket{
-    overflow:auto;
-    overflow-x: hidden;
-    scrollbar-width: thin;
-    max-height: 500px;
-    font-size: 24px;
-    border-bottom: 2px solid lightgray;
+#basket {
+  overflow: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  max-height: 500px;
+  font-size: 24px;
+  border-bottom: 2px solid lightgray;
 }
 
-.result p{
-    margin: 16px;
-    font-size: 16px;
-    color: #979797;
-    font-weight: 600;
+.result p {
+  margin: 16px;
+  font-size: 16px;
+  color: #979797;
+  font-weight: 600;
 }
 
-.result-sum{
-    margin: 16px;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
+.result-sum {
+  margin: 16px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.order-btn {
+  background-color: rgb(5, 101, 5);
+  color: white;
+  border: 6px solid rgb(5, 101, 5);
+  margin-left: 16px;
+  border-radius: 8px;
+}
+
+.order-btn:hover {
+  color: white;
+  cursor: pointer;
+  background-color: rgb(4, 139, 4);
+  border: 6px solid rgb(4, 139, 4);
+}
+
+.menu {
+  display: block;
+  position: fixed;
+  max-width: 100vw;
+  min-height: 60vh; 
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(247, 245, 245);
+  z-index: 2; 
 }

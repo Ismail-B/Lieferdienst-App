@@ -52,9 +52,16 @@ function updateTotals() {
   for (let i = 0; i < basketContent.length; i++) {
     subtotal += basketContent[i].price * basketContent[i].amount;
   }
-//Lieferkosten
+  //Lieferkosten
   let total = subtotal + 5;
 
   subtotalDisplay.textContent = `Zwischensumme: ${subtotal.toFixed(2)} €`;
   totalDisplay.textContent = `Gesamt: ${total.toFixed(2)} €`;
+}
+
+//Menu im responsive anzeigen
+
+function toggleOverlay() {
+  let element = document.getElementById("overlay");
+  element.classList.toggle("menu");
 }

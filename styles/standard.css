@@ -1,90 +1,90 @@
 html {
-    scroll-behavior: smooth;
-  }
-
-body{
-    font-family: Montserrat;
-    font-size: 32px;
-    background-color:white;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  scroll-behavior: smooth;
 }
 
-main{
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
+body {
+  font-family: Montserrat;
+  font-size: 32px;
+  background-color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-a{
-    font-size: 20px;
-    color: #919293;
-    font-weight: 560;
-    text-decoration: none;
+main {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
 }
 
-a:hover{
-    color: #c3c3c3;
+a {
+  font-size: 20px;
+  color: #919293;
+  font-weight: 560;
+  text-decoration: none;
 }
 
-h3{
-    margin: 16px;
-    margin-left: 0;
+a:hover {
+  color: #c3c3c3;
 }
 
-h4{
-    font-size: 26px;
-    margin: 16px;
-    text-align: center;
+h3 {
+  margin: 16px;
+  margin-left: 0;
 }
 
-h5{
-    margin-left: 16px;
-    margin-bottom: 0;
+h4 {
+  font-size: 26px;
+  margin: 16px;
+  text-align: center;
 }
 
-h6{
-    color: #919293;
-    font-weight: 560;
+h5 {
+  margin-left: 16px;
+  margin-bottom: 0;
 }
 
-h6:hover{
-    cursor: pointer;
-    color: #D8981D;
+h6 {
+  color: #919293;
+  font-weight: 560;
 }
 
-p{
-    font-size: 24px;
-    margin: 0;
+h6:hover {
+  cursor: pointer;
+  color: #d8981d;
 }
 
-header{
-    min-height: 100px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #EC8814;
-    color: white;
+p {
+  font-size: 24px;
+  margin: 0;
 }
 
-header img{
-    width: 150px;
-    margin-left: 24px;
-    margin-right: 16px;
+header {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ec8814;
+  color: white;
 }
 
-footer{
-    display: flex;
-    background-color: #3D3D3D;
-    justify-content: flex-start;
-    flex-direction: column;
-    min-height: 30px;
+header img {
+  width: 150px;
+  margin-left: 24px;
+  margin-right: 16px;
 }
 
-footer img{
-    width: 40px;
-    height: auto;
-    margin-bottom: 18px;
+footer {
+  display: flex;
+  background-color: #3d3d3d;
+  justify-content: flex-start;
+  flex-direction: column;
+  min-height: 30px;
+}
+
+footer img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 18px;
 }
