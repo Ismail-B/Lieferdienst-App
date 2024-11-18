@@ -36,8 +36,8 @@
           <div class="ranking">Bewertung (4,7 von 5 Sternen)</div>
           <div class="section-filter">
             <img src="./assets/icon/arrow.png" alt="Right Arrow Symbol" />
-            <h6>Hauptgerichte</h6>
-            <h6>Desserts</h6>
+            <a href="#dishes">Hauptspeisen</a>
+            <a href="#desserts">Desserts</a>
           </div>
           <img
             src="./assets/img/hauptgericht.jpg"
@@ -53,15 +53,17 @@
           <div id="desserts"></div>
         </div>
       </div>
-      <div  class="section-basket">
+      <div class="section-basket">
         <div class="section-basket-header">
           <h4>Warenkorb</h4>
         </div>
         <div id="basket">
         </div>
-        <p>Lieferkosten: 5.00 €</p>
+        <div class="result">
         <p id="subtotal">Zwischensumme: 0.00 €</p>
-        <p id="total">Gesamt: 5.00 €</p>
+        <p>Lieferkosten: 5.00 €</p>
+      </div>
+        <p class="result-sum" id="total">Gesamt: 5.00 €</p>
       </div>
     </main>
     <footer>
@@ -70,7 +72,6 @@
       </div>
       <p class="under-signature">© 2024 IB Company</p>
     </footer>
-
     <script src="./script.js"></script>
   </body>
 </html>

@@ -51,13 +51,15 @@ function renderBasket() {
   for (let i = 0; i < basketContent.length; i++) {
     const item = basketContent[i];
     basketHTML += `
-      <div>
-        <h4>${item.name}</h4>
-        <p>Menge: ${item.amount}</p>
-        <p>Preis: ${(item.price * item.amount).toFixed(2)} €</p>
-        <button onclick="increaseAmount(${i})">+</button>
-        <button onclick="decreaseAmount(${i})">-</button>
-        <button onclick="removeFromBasket(${i})">Entfernen</button>
+      <div class="basket-content">
+        <h4 class="basket-name">${item.name}</h4>
+        <div class="basket-content-under">
+        <img onclick="decreaseAmount(${i})" src="./assets/icon/minus_sign.png" alt="increase button">
+        <p class="basket-amount">${item.amount}x</p>
+        <img onclick="increaseAmount(${i})" src="./assets/icon/add_sign.png" alt="increase button">
+        <p class="basket-price">${(item.price * item.amount).toFixed(2)} €</p>
+        <img onclick="removeFromBasket(${i})" src="./assets/icon/garbage-can.png" alt="increase button">
+        </div>
       </div>
     `;
   }
