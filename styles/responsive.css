@@ -36,6 +36,11 @@
     .menu-btn{
         display: flex;
     }
+
+    header{
+        width: 100%;
+        position: fixed;
+    }
 }
 
 @media(min-width:750px){

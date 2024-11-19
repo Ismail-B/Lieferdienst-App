@@ -224,7 +224,7 @@
   display: block;
   position: fixed;
   max-width: 100vw;
-  min-height: 60vh; 
+  min-height: 100vh; 
   top: 100px;
   left: 0;
   right: 0;
